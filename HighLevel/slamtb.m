@@ -33,6 +33,8 @@
 clear
 global Map    
 
+addpath(genpath('.\Dual quaternion toolbox v3'))
+
 %% I. Specify user-defined options - EDIT USER DATA FILE userData.m
 
 userData;           % user-defined data. SCRIPT.

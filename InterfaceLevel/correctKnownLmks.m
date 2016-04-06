@@ -68,7 +68,7 @@ if any(vis) % Consider only visible observations
     [Obs(lmksToSkip).matched]  = deal(false);
     [Obs(lmksToSkip).updated]  = deal(false);
     
-%     [F_Q F_Omg] = computeFMatrix(Rob.state.x);
+    [F_Q F_Omg] = computeFMatrix(Rob.state.x);
     
     % search for triplets
     
