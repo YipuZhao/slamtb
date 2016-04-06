@@ -67,7 +67,15 @@ if any(vis) % Consider only visible observations
     [Obs(lmksToSkip).measured] = deal(false);
     [Obs(lmksToSkip).matched]  = deal(false);
     [Obs(lmksToSkip).updated]  = deal(false);
+    
+%     [F_Q F_Omg] = computeFMatrix(Rob.state.x);
+    
+    % search for triplets
+    
+    % compute SOM and rank the triplets
 
+    % feed the triplets into update
+    
     for lmk = lmksToObs % for each landmark to correct
 
         % Update Lmk search counter
